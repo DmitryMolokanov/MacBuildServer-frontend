@@ -1,0 +1,295 @@
+.MainPage {
+  width: 1152px;
+}
+
+.Title {
+  display: flex;
+  height: 535px;
+  padding: 0px 140px;
+}
+.TitleInfo {
+  display: flex;
+  justify-content: center;
+  margin-top: 158px;
+  width: 50%;
+}
+.TitleInfoContainer {
+  width: 100%;
+}
+.TitleGreeting {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 60px;
+}
+.TitleDiscription {
+  margin-top: 40px;
+  font-size: 16px;
+  text-align: justify;
+  line-height: 23.5px;
+}
+.TitleBtn {
+  width: 208px;
+  height: 47px;
+  margin-top: 40px;
+  font-size: 20px;
+  border: 0;
+  border-radius: 2px;
+  background-color: #ff6464;
+  color: #ffffff;
+}
+
+.TitleImg {
+  display: flex;
+  width: 50%;
+  height: 100%;
+}
+.TitleImgContainer {
+  width: 243px;
+  height: 243px;
+  margin-left: 115px;
+  margin-top: 140px;
+  border-radius: 50%;
+  box-shadow: -5px 15px 0px #edf7fa;
+}
+
+.ResentPosts {
+  width: 100%;
+  height: 396px;
+  padding: 0px 148px;
+  box-sizing: border-box;
+  background-color: #edf7fa;
+}
+.ResentPostsTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.ResentPostsTitle span {
+  font-size: 22px;
+  line-height: 60px;
+}
+.ResentPostsTitle a {
+  font-size: 16px;
+  color: #00a8cc;
+  text-decoration: none;
+}
+.PostsContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.Post {
+  width: 374px;
+  height: 264px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  padding: 24px 21px 7px 23px;
+}
+.PostTitle {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.PostDateContainer {
+  display: flex;
+  margin-top: 17px;
+  font-size: 18px;
+  margin-bottom: 17px;
+}
+.PostDate {
+  width: 130px;
+  border-right: 1px solid;
+}
+.PostTheme {
+  margin-left: 26px;
+}
+.FeaturedWorks {
+  box-sizing: border-box;
+  height: 850px;
+  width: 100%;
+  padding: 0px 146px 0px 148px;
+}
+.FeaturedWorksTitle {
+  font-size: 22px;
+  line-height: 60px;
+}
+.FeaturedWorksContainer {
+  width: 100%;
+  height: 100px;
+}
+.WorkContainer {
+  display: flex;
+  width: 100%;
+  height: 217px;
+  margin-top: 30px;
+  border-bottom: 1px solid#E0E0E0;
+}
+.WorkInfoContainer {
+  margin-left: 18px;
+}
+.WorkInfoTitle {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 44.06px;
+}
+.WorkInfoDateCategory {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 16px;
+}
+.WorkInfoDate {
+  width: 62px;
+  height: 25px;
+  text-align: center;
+  background-color: #142850;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 900;
+  border-radius: 16px;
+}
+
+.WorkInfoCategory {
+  margin-left: 26px;
+  font-size: 20px;
+  color: #8695a4;
+}
+.WorkInfoDiscribe {
+  margin-top: 17px;
+}
+.Footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 182px;
+}
+.FooterIcons {
+  display: flex;
+  justify-content: space-between;
+  width: 225px;
+  height: 30px;
+}
+.FooterCopyright {
+  margin-top: 26px;
+  font-size: 14px;
+}
+
+@media (max-width: 500px) {
+  .MainPage {
+    width: 100vw;
+    overflow: hidden;
+  }
+  .Title {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    padding: 23px;
+  }
+  .TitleInfo {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+  }
+  .TitleInfoContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .TitleGreeting {
+    text-align: center;
+    font-size: 32px;
+    line-height: 40px;
+    margin-top: 34px;
+  }
+  .TitleDiscription {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  .TitleBtn {
+    margin-top: 27px;
+  }
+  .TitleImgContainer {
+    width: 174.38px;
+    height: 180px;
+    margin: 0;
+    margin-top: 33px;
+  }
+  .TitleImgContainer img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: -3px 10px 0px #edf7fa;
+  }
+  .ResentPosts {
+    width: 100%;
+    height: 677px;
+    padding: 0px 10px 0px 11px;
+  }
+  .ResentPostsTitle {
+    justify-content: center;
+  }
+  .ResentPostsTitle span {
+    font-size: 18px;
+  }
+  .ResentPostsTitle a {
+    display: none;
+  }
+  .PostsContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .PostsContainer :last-child {
+    margin-top: 17px;
+  }
+  .Post {
+    box-sizing: border-box;
+    width: 100%;
+    height: fit-content;
+    padding: 12px 21px 0px 19px;
+  }
+  .FeaturedWorks {
+    height: fit-content;
+    padding: 0px 13px 0px 18px;
+  }
+  .FeaturedWorksTitle {
+    text-align: center;
+  }
+  .FeaturedWorksContainer {
+    height: 455px;
+    margin: 0;
+  }
+  .WorkImgContainer {
+    width: 100%;
+    height: 230px;
+  }
+  .WorkImgContainer img {
+    width: 100%;
+    height: 100%;
+  }
+  .WorkInfoContainer {
+    margin: 17px 0px 0px 0px;
+  }
+  .WorkInfoDiscribe {
+    padding-bottom: 17px;
+  }
+  .FeaturedWorks .WorkContainer:nth-child(1) {
+    display: block;
+    height: fit-content;
+  }
+  .FeaturedWorks .WorkContainer:nth-child(2) {
+    display: none;
+  }
+  .FeaturedWorks .WorkContainer:nth-child(3) {
+    display: none;
+  }
+  .Footer {
+    margin-top: 150px;
+  }
+}
